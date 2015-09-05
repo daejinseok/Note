@@ -1,0 +1,9 @@
+ls=ls --color=auto --show-control-chars $*
+sl=c:\bin\app\Sublime3\sublime_text.exe $*
+tc=c:\bin\app\TCmd\TOTALCMD64.EXE $*
+
+dkCfg=c:\bin\app\Sublime3\sublime_text.exe %ConEmuBaseDir%\doskey.mac
+dkRe=call doskey /macrofile=%ConEmuBaseDir%\doskey.mac
+dkmac=doskey /macros
+
+conCfg=c:\bin\app\Sublime3\sublime_text.exe %ConEmuBaseDir%\DJInit.cmd
