@@ -12,4 +12,4 @@ git commit -m "bra bra..."
 git push
 
 
-git config --global alias.acp '!f() { git add -A && git commit -m "$@" && git push; }; f'
+git config --global alias.acp '!f() { git add -A && git commit -m \"$1\" && git push; }; f'
